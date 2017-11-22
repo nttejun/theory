@@ -2,7 +2,7 @@
 # Hash Algorithm
 
 
-<h3>해시 알고리즘 실무사례</h3>
+<h3>해시 알고리즘 사용사례</h3>
 
 <h4>첫째, 전자서명, 각종 인증서</h4>
 공인인증서 발급 시 일련번호, 발급자, 발급대상 등의 정보를 해시 알고리즘을 사용하여 고유한 하나의 해시 값을 얻기 위해 사용합니다
@@ -34,8 +34,8 @@
 
 
 <h4>Code</h4>
-```
 
+``` 
 public class Main {
 
 public String testMd5(String str) {
@@ -71,6 +71,9 @@ public String testMd5(String str) {
 
     return Md5;
 }
+```
+
+```
 
 public String testSha256(String str) {
 
@@ -105,7 +108,9 @@ public String testSha256(String str) {
 	return SHA;
 
 }
+```
 
+```
 	public static void main(String[] args) {
 
 		Main main = new Main();
@@ -119,6 +124,5 @@ public String testSha256(String str) {
 	}
 
 } 
-
 ```
 
