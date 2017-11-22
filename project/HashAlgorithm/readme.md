@@ -35,7 +35,9 @@
 
 <h4>Code</h4>
 ```
+
 public class Main {
+
 public String testMd5(String str) {
     
     String Md5 = "";
@@ -43,14 +45,18 @@ public String testMd5(String str) {
     try {
     
         MessageDigest md = MessageDigest.getInstance("Md5");
+
 	    md.update(str.getBytes());
 	        
 	    byte byteData[] = md.digest();
+
 	    StringBuffer sb = new StringBuffer();
 
         for(int i = 0; i < byteData.length; i++) {
+
             sb.append(Integer.toString((byteData[i]&0xff) + 0x100,
             16).substring(1));
+
         }
 
         Md5 = sb.toString();
@@ -58,6 +64,7 @@ public String testMd5(String str) {
     } catch(NoSuchAlgorithmException e) {
 
         e.printStackTrace();
+
         Md5 = null;
 
     }
@@ -66,13 +73,21 @@ public String testMd5(String str) {
 }
 
 public String testSha256(String str) {
+
     String SHA = "";
+
     try {
+
         MessageDigest sh = MessageDigest.getInstance("SHA-256");
+
         sh.update(str.getBytes());
+
         byte byteData[] = sh.digest();
+
         StringBuffer sb = new StringBuffer();
+
             for(int i=0; i<byteData.length; i++) {	
+
                    sb.append(Integer.toString((byteData[i]&0xff)+0x100,16).substring(1));
 	    
 	    }
@@ -90,12 +105,20 @@ public String testSha256(String str) {
 	return SHA;
 
 }
+
 	public static void main(String[] args) {
+
 		Main main = new Main();
 
 		System.out.println(main.testMd5("hello"));
+
 		System.out.println("----");
+
 		System.out.println(main.testSha256("hello"));
+
 	}
+
 } 
+
 ```
+
