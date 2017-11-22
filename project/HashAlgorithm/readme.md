@@ -4,7 +4,7 @@
 
 <h3>해시 알고리즘 실무사례</h3>
 
-<h4>첫째, 전자서명, 각종 인증서(1)(4)</h4>
+<h4>첫째, 전자서명, 각종 인증서</h4>
 공인인증서 발급 시 일련번호, 발급자, 발급대상 등의 정보를 해시 알고리즘을 사용하여 고유한 하나의 해시 값을 얻기 위해 사용합니다
 
 <h4>둘째, 비트코인</h4>
@@ -34,27 +34,34 @@
 
 
 <h4>Code</h4>
-``` public class Main {
-
+```
+public class Main {
 public String testMd5(String str) {
+    
     String Md5 = "";
-
+    
     try {
+    
         MessageDigest md = MessageDigest.getInstance("Md5");
-        md.update(str.getBytes());
-        byte byteData[] = md.digest();
-        StringBuffer sb = new StringBuffer();
+	    md.update(str.getBytes());
+	        
+	    byte byteData[] = md.digest();
+	    StringBuffer sb = new StringBuffer();
 
-            for(int i = 0; i < byteData.length; i++) {
-                sb.append(Integer.toString((byteData[i]&0xff) + 0x100,
-                16).substring(1));
-            }
+        for(int i = 0; i < byteData.length; i++) {
+            sb.append(Integer.toString((byteData[i]&0xff) + 0x100,
+            16).substring(1));
+        }
 
         Md5 = sb.toString();
+
     } catch(NoSuchAlgorithmException e) {
+
         e.printStackTrace();
         Md5 = null;
+
     }
+
     return Md5;
 }
 
@@ -65,27 +72,30 @@ public String testSha256(String str) {
         sh.update(str.getBytes());
         byte byteData[] = sh.digest();
         StringBuffer sb = new StringBuffer();
-            for(int i=0; i<byteData.length; i++) {
-                sb.append(Integer.toString((byteData[i]&0xff)+0x100,16).substring(1));
-    }
+            for(int i=0; i<byteData.length; i++) {	
+                   sb.append(Integer.toString((byteData[i]&0xff)+0x100,16).substring(1));
+	    
+	    }
     
-    SHA = sb.toString();
+	    SHA = sb.toString();
 
-    } catch(NoSuchAlgorithmException e) {
+	    } catch(NoSuchAlgorithmException e) {
 
-    e.printStackTrace();
+	    e.printStackTrace();
 
-    SHA = null;
+	    SHA = null;
     
     }
 
-return SHA;
-}
-public static void main(String[] args) {
-Main main = new Main();
+	return SHA;
 
-System.out.println(main.testMd5("hello"));
-System.out.println("----");
-System.out.println(main.testSha256("hello"));
 }
-} ```
+	public static void main(String[] args) {
+		Main main = new Main();
+
+		System.out.println(main.testMd5("hello"));
+		System.out.println("----");
+		System.out.println(main.testSha256("hello"));
+	}
+} 
+```
