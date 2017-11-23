@@ -1,6 +1,5 @@
 ## public-key cryptography (비대칭키  알고리즘) ##
 
-@([프로젝트])[티스토리]
 
 <h3>비대칭 알고리즘</h3>
 
@@ -36,10 +35,10 @@
 - ECC (Elliptic Curve Cryptosystem, 타원 곡선 암호 시스템)
 	- 전원 양이 한정된 이동 통신 기기 암호화에 적용 가능하며, 속도가 빠른 구현이 가능
 
-- DH
+- DH (Diffie-Hellman key exchange)
 	- 함호화 되지 않은 통신망을 통해 공통의 비밀 키를 공유할 수 있도록 한다
 
-- DSA
+- DSA (Digital Signature Algorithm)
 	- 디지털 서명 표준에 사용하기 위해 제안
 
 <br>
