@@ -37,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/SymmetricKeyAlgorithm/AES/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="485">
-                <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -192,12 +192,12 @@
       <workItem from="1511347820853" duration="147000" />
       <workItem from="1511348228731" duration="15000" />
       <workItem from="1511348266264" duration="15624000" />
-      <workItem from="1511499403387" duration="1283000" />
+      <workItem from="1511499403387" duration="1304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17850000" />
+    <option name="totallyTimeSpent" value="17871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="25" width="1400" height="821" extended-state="0" />
@@ -351,8 +351,8 @@
     <entry file="file://$PROJECT_DIR$/SymmetricKeyAlgorithm/AES/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="485">
-            <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
             <folding />
           </first_editor>
           <second_editor />

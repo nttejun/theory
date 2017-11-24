@@ -1,7 +1,5 @@
 ## AES : 고급 암호화 표준(Advanced Encryption Standard) ##
 
-@([프로젝트])[티스토리]
-
 <br>
 <h3>AES (고급 암호화 표준)</h3>
 
