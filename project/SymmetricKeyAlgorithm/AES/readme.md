@@ -45,6 +45,8 @@ AES 알고리즘 블록 크기 : 128비트, 192비트, 256비트<br>
 	- 카운터 방식은 각 블록의 암호화 및 복호화가 이전 블록에 의존하지 않아 **병렬적 동작**이 가능
 	- 원하는 암호화된 문자열만 부분 복호화도 가능
 
+> Nonce는 임의로 생성되는 암호화 토큰(8)
+
 <br>
 <h3>패딩</h3>
 블록 가장 마지막에 공백이나 의미 없는 기호 등을 추가해서 블록을 고정된 길이로 만드는 것
@@ -110,4 +112,5 @@ AES 알고리즘 블록 크기 : 128비트, 192비트, 256비트<br>
 (4) - http://acaasia.blogspot.kr/2013/07/padding-mode.html <br>
 (5) - https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%94%A9_(%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4) <br>
 (6) - http://platum.kr/archives/30613 <br>
-(7) - https://namu.wiki/w/AES
+(7) - https://namu.wiki/w/AES <br>
+(8) - https://www.ibm.com/support/knowledgecenter/ko/SSEQTP_8.0.0/com.ibm.websphere.base.doc/info/aes/ae/cwbs_noncev6.html <br>
