@@ -63,6 +63,12 @@ AES 알고리즘 블록 크기 : 128비트, 192비트, 256비트<br>
 <br>
 <h3>AES 알고리즘이 구현되는 과정</h3>
 
+- AES 알고리즘 구현에 사용되는 알고리즘(7)
+	- SubBytes
+	- ShiftRows
+	- MixColumns
+	- AddRoundKey
+
 - 각 라운드에서 대체와 치환을 이용해서 데이터 블록 전체를 병렬 처리한다
 
 - 입력 키를 44개의 32비트 워드로 배열로 확장<br>
@@ -104,3 +110,4 @@ AES 알고리즘 블록 크기 : 128비트, 192비트, 256비트<br>
 (4) - http://acaasia.blogspot.kr/2013/07/padding-mode.html <br>
 (5) - https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%94%A9_(%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4) <br>
 (6) - http://platum.kr/archives/30613 <br>
+(7) - https://namu.wiki/w/AES
