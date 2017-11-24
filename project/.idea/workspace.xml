@@ -50,8 +50,8 @@
         <entry file="file://$PROJECT_DIR$/PublicKeyCryptography/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -84,8 +84,8 @@
         <option value="$PROJECT_DIR$/SymmetricKeyAlgorithm/readmd.md" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/SymmetricKeyAlgorithm/readme.md" />
-        <option value="$PROJECT_DIR$/PublicKeyCryptography/readme.md" />
         <option value="$PROJECT_DIR$/SymmetricKeyAlgorithm/AES/readme.md" />
+        <option value="$PROJECT_DIR$/PublicKeyCryptography/readme.md" />
       </list>
     </option>
   </component>
@@ -192,12 +192,12 @@
       <workItem from="1511347820853" duration="147000" />
       <workItem from="1511348228731" duration="15000" />
       <workItem from="1511348266264" duration="15624000" />
-      <workItem from="1511499403387" duration="782000" />
+      <workItem from="1511499403387" duration="963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17349000" />
+    <option name="totallyTimeSpent" value="17530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="25" width="1400" height="821" extended-state="0" />
@@ -351,8 +351,8 @@
     <entry file="file://$PROJECT_DIR$/PublicKeyCryptography/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
